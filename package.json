@@ -26,7 +26,16 @@
     "ETL",
     "data-processing"
   ],
+  "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "files": [
     "dist",
     "src"
@@ -51,12 +60,17 @@
   "homepage": "https://github.com/gabrieljuninho/datalyst#readme",
   "devDependencies": {
     "@eslint/js": "^9.16.0",
+    "@types/papaparse": "^5.3.15",
     "eslint": "^9.16.0",
     "globals": "^15.13.0",
     "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.0"
+  },
+  "dependencies": {
+    "papaparse": "^5.4.1"
   }
 }
