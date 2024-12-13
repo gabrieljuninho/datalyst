@@ -1,7 +1,7 @@
 {
   "name": "datalyst",
   "description": "A comprehensive package designed for data analysts, combining powerful utility functions for data manipulation, transformation, and analysis, along with ready-to-use React components for visualizing and interacting with data. Simplify workflows, accelerate analysis, and build stunning data-driven applications effortlessly.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Gabriel Juninho Paulista <gabrieltobing789@gmail.com>",
   "license": "MIT",
   "keywords": [
